@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,7 +18,6 @@ namespace SalesWebMvc.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Salles WEB MVC App from C#";
-            ViewData["email"] = "levicanazzi@gmail.com";
             ViewData["Nome"] = "Levi Canazzi Junior";
 
             return View();
